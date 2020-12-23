@@ -162,13 +162,9 @@ export class ExecutionContext {
         let name = null
         if (err) name = 'Unknown'
         // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md
-        else if (id === 1) name = 'Main'
-        else if (id === 2) name = 'Morden (deprecated)'
-        else if (id === 3) name = 'Ropsten'
-        else if (id === 4) name = 'Rinkeby'
-        else if (id === 5) name = 'Goerli'
-        else if (id === 42) name = 'Kovan'
-        else name = 'Custom'
+        else if (id == 97) name = 'Testnet';
+        else if (id == 56) name = 'Mainnet';
+        else name = 'Custom';
 
         if (id === '1') {
           web3.eth.getBlock(0, (error, block) => {
