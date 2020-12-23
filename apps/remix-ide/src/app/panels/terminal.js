@@ -461,6 +461,59 @@ class Terminal extends Plugin {
           <i> - Right click on a JavaScript file in the file explorer and then click \`Run\` </i>
         </li>
       </ul>
+      <div>How to configure Metamask to use Binance Smart Chain: </div>
+      <ul class=${css2.ul}>
+        <li>By default, Metamask is configured for the Ethereum Blockchain. But it allows Custom RPC to for other chains as well</li>
+        <li>Follow the Steps in Metamask Extension
+          <br />
+          <i> - Click on the \`Network\` selection tab in Metamask </i>
+          <br />
+          <i> - Choose \`Custom RPC\` option from the dropdown menu </i>
+          <br />
+          <i> - Fill in the following information in the fields</i>
+          <br />
+          <ul>
+            <b>- For Mainnet </b>
+            <li>
+              <b>Network Name</b> - Binance Smart Chain Mainnet
+            </li>
+            <li>
+              <b>New RPC URL</b> - https://bsc-dataseed4.ninicoin.io:443
+            </li>
+            <li>
+              <b>Chain ID</b> - 0x38
+            </li>
+            <li>
+              <b>Currency Symbol (optional)</b> - BNB
+            </li>
+            <li>
+              <b>Block Explorer URL (optional)</b> - https://bscscan.com/
+            </li>
+          </ul>
+          <br />
+          <ul>
+            <b>- For Testnet </b>
+            <li>
+              <b>Network Name</b> - Binance Smart Chain Testnet
+            </li>
+            <li>
+              <b>New RPC URL</b> - https://data-seed-prebsc-1-s1.binance.org:8545
+            </li>
+            <li>
+              <b>Chain ID</b> - 0x61
+            </li>
+            <li>
+              <b>Currency Symbol (optional)</b> - BNB
+            </li>
+            <li>
+              <b>Block Explorer URL (optional)</b> - https://testnet.bscscan.com/
+            </li>
+          </ul>
+          <br />
+          <i> - Click on the \`Save\` button</i>
+          <br />
+        </li>
+      </ul>
       <div>The following libraries are accessible:</div>
       <ul class=${css2.ul}>
         <li><a target="_blank" href="https://web3js.readthedocs.io/en/1.0/">web3 version 1.0.0</a></li>
