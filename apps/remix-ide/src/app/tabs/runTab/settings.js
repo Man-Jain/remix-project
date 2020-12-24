@@ -122,7 +122,7 @@ class SettingsUI {
             <option data-unit="wei">wei</option>
             <option data-unit="gwei">gwei</option>
             <option data-unit="finney">finney</option>
-            <option data-unit="ether">ether</option>
+            <option data-unit="ether">BNB</option>
           </select>
         </div>
       </div>
