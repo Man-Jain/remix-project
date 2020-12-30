@@ -347,7 +347,7 @@ h6 {
   font-family: inherit;
   font-weight: 400;
   line-height: 1.1;
-  color: #d8d7e2;
+  color: #f0b90b;;
 }
 .h1,
 h1 {
@@ -1640,8 +1640,7 @@ pre code {
   background-color: #1a1a1a;
   border-color: #6d7172;
   outline: 0;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 0 3px rgba(0, 122, 166, 0.25);
+  box-shadow: inset 0 1px 1px #f0b90b, 0 0 0 1px #f0b90b;
 }
 .form-control::placeholder {
   color: #868e96;
@@ -2093,18 +2092,21 @@ textarea.form-control.is-invalid {
 }
 .btn {
   display: inline-block;
-  font-weight: 400;
-  color: #d5d5d5;
+  font-weight: 500;
+  color: #212833;
   text-align: center;
   vertical-align: middle;
   user-select: none;
-  background-color: transparent;
+background-color: #f0b90b;
   border: 1px solid transparent;
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.25;
   border-radius: 2px;
   transition: all 0.15s ease-in-out;
+}
+.btn img {
+  filter: invert(0) !important;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -2161,14 +2163,14 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(38, 142, 179, 0.5);
 }
 .btn-secondary {
-  color: #d5d5d5;
-  background-color: #38383c;
-  border-color: #66666a;
+  color: #212833;
+  background-color: #f0b90b;
+  border-color: #f0b90b;
 }
 .btn-secondary:hover {
-  color: #d5d5d5;
-  background-color: #606061;
-  border-color: #434559;
+   color: #212833;
+  background-color: #faf617;
+  border-color: #faf617;
 }
 .btn-secondary.focus,
 .btn-secondary:focus {
@@ -8580,11 +8582,11 @@ a.text-light:hover {
   color: #0b0c11 !important;
 }
 .text-dark {
-  color: #babbcc !important;
+  color: #212833 !important;
 }
 a.text-dark:focus,
 a.text-dark:hover {
-  color: #6f7087 !important;
+  color: #212833 !important;
 }
 .text-body {
   color: #9e9eab !important;
